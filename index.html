@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Mediaclic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/FaviconAzul.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- iconos font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- chat crisp -->
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "6ee99524-4f87-462e-94fc-0b54df370340";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
+</head>
+<!-- menu de navegacion -->
+
+<body class="d-flex flex-column min-vh-100">
+    <header id="nav" class="sticky-top">
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand pb-4" href="#carouselExampleControls"><img src="img/Logo Mediaclic.png" alt="Logo Mediaclic" width="110"></a>
+                <!-- boton colapso -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- contenedor menu de navegacion -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- menu de navegacion -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carouselExampleControls">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- slider de imagenes -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slide01.jpg" class="d-block w-100 mx-auto" alt="Imagen01">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide02.jpg" class="d-block w-100 mx-auto" alt="Imagen02">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide03.jpg" class="d-block w-100 mx-auto" alt="Imagen03">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- contenido principal -->
+    <main class="container-md flex-grow-1 p-0">
+        <!-- subtitulo 01 -->
+        <div class="row mt-lg-5">
+            <h3 class="col-12 text-center">Un ejemplo que te puede interesar</h3>
+        </div>
+        <!-- video -->
+        <article id="video" class="row">
+            <div class="col-12 col-lg-6">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/6XwqGDmR6qA" title="YouTube video" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- parrafo video -->
+            <div class="col-12 col-lg-6 mt-2 d-flex align-content-lg-center justify-content-center justify-content-lg-end flex-wrap">
+                <p class="text-center text-lg-start">La pandemia del 2020 nos ha mostrado que vender tus productos por internet se convirtio en una necesidad mas que en un capricho.</p>
+            </div>
+        </article>
+        <!-- subtitulo 02 -->
+        <div class="row mt-lg-5">
+            <h3 class="col-12 text-center">Es hora que vendas de otra manera</h3>
+        </div>
+        <article class="row">
+            <!-- Carrito -->
+            <div class="col-12 col-lg-6 d-flex justify-content-center order-lg-1">
+                <img src="img/Carrito.png" class="w-75">
+            </div>
+            <!-- parrafo carrito -->
+            <div id="carritoimg" class="col-12 col-lg-6 d-flex align-content-lg-center justify-content-center justify-content-lg-end flex-wrap">
+                <div class="">
+                    <p class="text-center text-lg-end">Tus clientes estan esperando a que tu tienda este en linea. <br> Que esperas!!!!</p>
+                </div>
+                <!-- boton -->
+                <div id="servicios">
+                    <a href="#formulario">
+                        <button type="button" class="btn btn-sm mb-5">Saber Más</button>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <!-- nuestors servicios -->
+        <section class="container-md pb-5">
+            <div class="row servicios p-5">
+                <h2 class="text-center mb-5">Nuestros Servicios</h2>
+                <article class="col-lg-4">
+                    <img src="img/servicios01.png" class="w-100">
+                    <h3 class="text-center mt-3">Diseño Web</h3>
+                    <p class="text-center">Diseñamos tu pagina web de la forma que siempre la has imaginado.</p>
+                </article>
+                <article class="col-lg-4">
+                    <img src="img/servicios02.png" class="w-100">
+                    <h3 class="text-center mt-3">Diseño Grafico</h3>
+                    <p class="text-center">Creamos la imagen para tu proyecto, para que tu marca sea representativa y diferente a las demas.</p>
+                </article>
+                <article class="col-lg-4">
+                    <img src="img/servicios03.png" class="w-100">
+                    <h3 class="text-center mt-3">Manejo de Redes</h3>
+                    <p class="text-center">Hacemos que tu negocio o proyecto sea visible al publico que quieres llegar.</p>
+                </article>
+            </div>
+        </section>
+        <!-- Galeria de imagenes -->
+        <section class="galeria min-vh-100 pt-5">
+            <h3 class="text-center pb-5">Galeria de imagenes</h3>
+            <div class="container-md p-0">
+                <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                    <div class="col">
+                        <img src="img/01.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/02.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/03.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/04.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/05.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/06.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/07.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/08.png" class="galeria-item">
+                    </div>
+                    <div class="col">
+                        <img src="img/09.png" class="galeria-item">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="galeria-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="img/01.png" class="modal-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Us -->
+        <section id="about" class="container-md bg-secundary pt-0 m-0">
+            <div class="row">
+                <div class="español col">
+                    <h3 class="text-center pb-4 pt-5">Acerca de Nosotros</h3>
+                    <p class="text-justify px-5 pb-5">Somos una agencia de marketing digital, creada apartir de la union de un grupo de estudiantes de Produccion Multimedia del SENA. Nos dedicamos a impulsar marcas y emprendimientos, principalmente en la web. <br><br> Nos gusta hacer
+                        que tu negocio o idea sea visible en lugares donde no pensaste que llegarias y que adquieras clientes desde cualquier lugar. Podemos hacer que la imagen de tu empresa sea como la has pensado y es algo que nos alegra. <br><br> Nos
+                        motiva ayudarte a alcanzar tus metas y realizar tus sueños.</p>
+                </div>
+                <div class="english col pt-5 border border-bottom">
+                    <h3 class="text-center pb-4">About Us</h3>
+                    <p class="text-justify px-5 pb-5">We are a digital marketing agency, created from the union of a group of Multimedia Production students from SENA. We are dedicated to promoting brands and ventures, mainly on the web.<br><br> We like to make your business or idea visible
+                        in places where you did not think you would reach and that you acquire clients from anywhere. We can make the image of your company be as you have thought it and it is something that makes us happy. <br><br> We are motivated to
+                        help you to achieve your goals and make your dreams come true.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Contactenos -->
+    <section id="formulario" class="flex-grow-1 pb-4 mt-0">
+        <div class="container-md col-12 col-md-7 col-lg-4">
+            <form action="enviar.php" method="POST" name="enviar" class="p-4 d-flex flex-column align-items-stretch flex-grow-1 form-control mt-5">
+                <h2 class="text-center mb-2">Contactanos</h2>
+                <label class="formulario-label">Nombre</label>
+                <input type="text" class="form-control mb-2" name="nombre" required>
+                <label class="formulario-label">Asunto</label>
+                <input type="text" class="form-control mb-2" name="asunto" required>
+                <label class="formulario-label">Correo</label>
+                <input type="email" class="form-control mb-2" name="correo" required>
+                <label class="formulario-label">Mensaje</label>
+                <textarea class="form-control" aria-label="Whit textarea" name="mensaje" required></textarea>
+                <button type="submit" class="btn align-self-center mt-3 text-light">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="container-fluid text-center">
+        <div id="socialicons" class="d-flex justify-content-center">
+            <div><a href="#"><i class="fab fa-whatsapp"></i></a></div>
+            <div class="mx-3"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+            <div><a href="#"><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div id="copy" class="row">
+            <p class="mb-0 mt-3">Todos los derechos reservados Grupo5 Sena 2020-2021</p>
+            <p class="mb-3">Solo con fines educativos</p>
+        </div>
+    </footer>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>

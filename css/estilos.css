@@ -1,0 +1,166 @@
+/* paleta de colores mediaclic
+#d92e1e =Rojo
+#f2762e =Naranja
+#7fa62d =Verde      
+#348abf =Azul
+#0d0d0d =Negro */
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+#nav {
+    background-color: #ffffff;
+}
+
+#navbarSupportedContent {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'KoHo', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#navbarSupportedContent ul li a {
+    color: #0d0d0d;
+}
+
+
+/* #carouselExampleControls {
+    background-color: #0d0d0d;
+} */
+
+#video div p {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#carrito {
+    background-color: #7fa62d;
+}
+
+#carritoimg div p {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#carritoimg div button {
+    background-color: #0d0d0d;
+    color: white;
+    font-family: 'KoHo', sans-serif;
+}
+
+div h3 {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #0d0d0d;
+}
+
+section {
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+
+section h2 {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #0d0d0d;
+}
+
+section div article p {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+section h3 {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #0d0d0d;
+}
+
+.galeria img {
+    max-width: 100%;
+    object-fit: cover;
+    /* height: 300px; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.galeria img:hover {
+    transform: scale(1.02);
+}
+
+#galeria-modal .modal-img {
+    width: 100%;
+}
+
+.español p {
+    font-family: 'KoHo';
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.english h3 {
+    color: white;
+}
+
+.english p {
+    font-family: 'KoHo';
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+}
+
+.english {
+    background-color: #0d0d0d;
+}
+
+#formulario {
+    background-color: #0d0d0d;
+}
+
+#formulario div form h2 {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #0d0d0d;
+}
+
+#formulario div form label {
+    margin: 0px;
+    font-family: 'KoHo';
+    font-weight: 400;
+}
+
+#formulario div form button {
+    background-color: #0d0d0d;
+    font-family: 'KoHo';
+    font-weight: 400;
+}
+
+#formulario div form textarea {
+    min-height: 80px;
+}
+
+footer {
+    background-color: #0d0d0d;
+}
+
+#socialicons div a i {
+    font-size: 24px;
+    color: #0d0d0d;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#copy {
+    color: #7fa62d;
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+}
